@@ -9,8 +9,8 @@ In a UEFI firmware, the system setup panel is a EFI application embedded in the 
 Menus and options are described in a format called IFR.
 
 ## How to tweak the setup panel
-First of all, compile UEFITool and Universal-IFR-Extractor\
-https://github.com/LongSoft/UEFITool/UEFITool.git\
+First of all, compile UEFITool and Universal-IFR-Extractor \
+https://github.com/LongSoft/UEFITool/UEFITool.git \
 https://github.com/rmast/Universal-IFR-Extractor.git
 
 Download an original copy of the UEFI update package. You can obtain one from your barebone integrator, such as Santech.\
