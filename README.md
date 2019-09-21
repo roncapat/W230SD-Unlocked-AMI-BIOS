@@ -1,19 +1,20 @@
 # W230SD-Unlocked-AMI-BIOS
 Modded Setup UEFI DXE for Clevo W230SD laptops - All hidden voices unlocked
 
-Firmware version: 1.05.01
+Firmware version: 1.05.01\
+Modded UEFI package: https://github.com/roncapat/W230SD-Unlocked-AMI-BIOS/releases/tag/1.0
 
-W230SD motherboard is equipped with a UEFI firmware. 
-In a UEFI firmware, the system setup panel is a EFI application embedded in the firmware image as a DXE driver module. 
+W230SD motherboard is equipped with a UEFI firmware. \
+In a UEFI firmware, the system setup panel is a EFI application embedded in the firmware image as a DXE driver module.\
 Menus and options are described in a format called IFR.
 
 ## How to tweak the setup panel
-First of all, compile UEFITool and Universal-IFR-Extractor
-https://github.com/LongSoft/UEFITool/UEFITool.git
+First of all, compile UEFITool and Universal-IFR-Extractor\
+https://github.com/LongSoft/UEFITool/UEFITool.git\
 https://github.com/rmast/Universal-IFR-Extractor.git
 
-Download an original copy of the UEFI update package. You can obtain one from your barebone integrator, such as Santech.
-Here's the link for my Santech T55 (Clevo W230ST Barebone) notebook:
+Download an original copy of the UEFI update package. You can obtain one from your barebone integrator, such as Santech.\
+Here's the link for my Santech T55 (Clevo W230ST Barebone) notebook:\
 https://www.santech.eu/index.php?route=product/attachmanager/getfile&product_attach_file_id=1311
 
 In the downloaded .zip file, you must locate the firmware package. In the referenced T55 package, for example, the file is called T55D_105.01. If you open it with UEFITool, you should see "UEFI Image" as the root of the main panel hierarchy.
